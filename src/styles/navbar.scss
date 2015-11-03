@@ -1,0 +1,44 @@
+@import './_colors.scss';
+@import './_fonts.scss';
+
+// Centralize navbar
+@media (min-width: 768px){
+  .navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: auto;
+    float: none;
+    width: 100%;
+  }
+  .navbar-nav>li {
+    display: table-cell;
+    float: none;
+    text-align: center;
+  }
+}
+
+// Navbar Styles
+.navbar {
+  border: none;
+  background-color: white;
+  box-shadow: 0px -5px 30px #000;
+  margin-bottom: 0;
+}
+
+.navbar-default .nav > li > a {
+  transition: all 0.5s ease;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: Open Sans;
+  border-bottom: 5px solid white;
+  &:hover {
+    color: $color-primary;
+    border-color: $color-primary;
+  }
+}
+
+.navbar-default .nav > li.active > a {
+  border-bottom: 5px solid $color-primary;
+  color: $color-primary;
+}
+

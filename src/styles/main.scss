@@ -1,0 +1,28 @@
+@import './_colors.scss';
+@import './_fonts.scss';
+
+body {
+  font-family: Open Sans;
+  font-weight: 300;
+}
+
+.unpad {
+  padding: 0;
+}
+
+// Center carousel image
+.carousel-inner {
+  transition: display 0.5s ease-in;
+  background-color: $color-primary;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+  margin: auto;
+}
+
+// Remove annoying shadows
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
