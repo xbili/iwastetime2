@@ -26,3 +26,25 @@ body {
     background-image: none
 }
 
+.showcase {
+  padding: 20px;
+  background-color: $color-primary;
+  .row {
+    min-height: 70vh;
+  }
+  .img-wrapper {
+    width: 100%;
+  }
+  .pr-img {
+    height: 70vh;
+  }
+  p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+}
+
+.leave {
+  display: none;
+}
+
