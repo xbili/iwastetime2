@@ -12,7 +12,6 @@ var data = require('../data/data');
 var ShowcaseComponent = React.createClass({
 
   componentWillMount: function() {
-    setInterval(this.nextItem, 10000);
     this.setState({
       idx: 0,
       text: data
@@ -20,7 +19,6 @@ var ShowcaseComponent = React.createClass({
   },
 
   nextItem: function() {
-
     if (this.state.idx === data.length-1) {
       return this.setState({
         idx: 0
@@ -59,7 +57,7 @@ var ShowcaseComponent = React.createClass({
     return (
       <div className="container-fluid unpad">
         <div className="showcase">
-          <div className="row">
+          <div className="row showcase-main">
 
             <div className="col-md-5">
               <ReactCSSTransitionGroup
@@ -97,6 +95,7 @@ var ShowcaseComponent = React.createClass({
             </div>
 
           </div>
+          <ShowcaseControl next={_.debounce(this.nextItem, 1000, { leading: true, trailing: false })} prev={_.debounce(this.prevItem, 1000, { leading: true, trailing: false })} />
         </div>
         <h1 className="text-center">Relax, #IWasteTime2</h1>
       </div>

@@ -2,6 +2,7 @@
 @import './_fonts.scss';
 
 body {
+  overflow-x: hidden;
   font-family: Open Sans;
   font-weight: 300;
 }
@@ -29,7 +30,7 @@ body {
 .showcase {
   padding: 20px;
   background-color: $color-primary;
-  .row {
+  .row.showcase-main {
     min-height: 70vh;
   }
   .img-wrapper {
