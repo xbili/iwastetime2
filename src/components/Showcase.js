@@ -41,7 +41,7 @@ var ShowcaseComponent = React.createClass({
     var items = this.state.text.map(function(item, i) {
       item = item.text;
       return (
-        <p className="animated text-center" key={item}>
+        <p className="animated" key={item}>
           {item}
         </p>
       );
@@ -61,7 +61,7 @@ var ShowcaseComponent = React.createClass({
         <div className="showcase">
           <div className="row">
 
-            <div className="col-md-6">
+            <div className="col-md-5">
               <ReactCSSTransitionGroup
                 transitionName={ {
                   enter: 'fadeInLeft',
@@ -78,7 +78,8 @@ var ShowcaseComponent = React.createClass({
               </ReactCSSTransitionGroup>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-5">
+              <h2 className="text-center">How I Procrastinate:</h2>
               <ReactCSSTransitionGroup
               transitionName={ {
                 enter: 'fadeInRight',
