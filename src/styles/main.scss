@@ -11,22 +11,6 @@ body {
   padding: 0;
 }
 
-// Center carousel image
-.carousel-inner {
-  transition: display 0.5s ease-in;
-  background-color: $color-primary;
-}
-
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img{
-  margin: auto;
-}
-
-// Remove annoying shadows
-.carousel-control.left, .carousel-control.right {
-    background-image: none
-}
-
 .showcase {
   padding: 20px;
   background-color: $color-primary;
@@ -46,6 +30,11 @@ body {
     margin-top: 10px;
     font-size: 20px;
   }
+}
+
+.showcase-control {
+  color: white;
+  font-size: 35px;
 }
 
 .leave {
