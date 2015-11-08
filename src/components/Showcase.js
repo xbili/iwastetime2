@@ -90,12 +90,12 @@ var ShowcaseComponent = React.createClass({
               transitionAppearTimeout={300}>
 
               {items[this.state.idx]}
-
               </ReactCSSTransitionGroup>
             </div>
 
           </div>
-          <ShowcaseControl next={_.debounce(this.nextItem, 1000, { leading: true, trailing: false })} prev={_.debounce(this.prevItem, 1000, { leading: true, trailing: false })} />
+
+          <ShowcaseControl next={_.debounce(this.nextItem, 600, {leading: false, trailing: true})} prev={_.debounce(this.prevItem, 600, {leading: false, trailing: true})} />
         </div>
         <h1 className="text-center">Relax, #IWasteTime2</h1>
       </div>

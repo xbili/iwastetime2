@@ -35,6 +35,9 @@ body {
 .showcase-control {
   color: white;
   font-size: 35px;
+  span.glyphicon {
+    cursor: pointer;
+  }
 }
 
 .leave {
