@@ -59,7 +59,7 @@ module.exports = [
   },
 
   {
-    "text": "",
+    "text": "Errr I get distracted easily, especially by notifications that pop up ie. from FB/Instagram/Twitter like you interviewing me. Once that happens I pretty much just waste the next hour away checking for \"updates\" and stumbling across \"interesting\" links/things",
     "image_url": "../images/13.png"
   },
 
