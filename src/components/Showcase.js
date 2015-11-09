@@ -95,7 +95,7 @@ var ShowcaseComponent = React.createClass({
 
           </div>
 
-          <ShowcaseControl next={_.debounce(this.nextItem, 600, {leading: false, trailing: true})} prev={_.debounce(this.prevItem, 600, {leading: false, trailing: true})} />
+          <ShowcaseControl next={this.nextItem} prev={this.prevItem} />
         </div>
         <h1 className="text-center">Relax, #IWasteTime2</h1>
       </div>

@@ -91,6 +91,16 @@ module.exports = [
   {
     "text": "I can waste hours on Youtube. One moment I’ll be at Khan Academy page; and the next, I’ll be watching Kitchen Nightmare.",
     "image_url": "../images/19.png"
+  },
+
+  {
+    "text": "Discovering new music and films are what mainly constitute my procrastination. Also, I spend way too much time procrastinating by asking others if they are procrastinating from their work. It needs to, at the very least, feel good if it is a supposed impediment to being efficient.",
+    "image_url": "../images/20.png"
+  },
+
+  {
+    "text": "I procrastinate by spending copious amounts of time striking conversations with friends or wandering around aimlessly",
+    "image_url": "../images/21.png"
   }
 ];
 
