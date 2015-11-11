@@ -15,6 +15,7 @@ ReactDOM.render((
     <Route path="/" component={App}>
       <IndexRoute component={Showcase} />
       <Route name="showcase" path="showcase" component={Showcase} />
+      <Route name="learn" path="learn" component={Learn} />
       <Route name="about" path="about" component={About} />
     </Route>
   </Router>

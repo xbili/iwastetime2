@@ -1,11 +1,18 @@
 var React = require('react');
 
+var articleData = require('../data/article');
+
 var LearnComponent = React.createClass({
+  componentWillMount: function() {
+    this.setState({
+      article: articleData[1]
+    });
+  },
 
   render: function() {
     return (
       <div className="container about">
-        <h1>Hello world!</h1>
+        {this.state.article.content}
       </div>
     );
   }

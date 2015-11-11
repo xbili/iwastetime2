@@ -12,15 +12,11 @@ var AboutComponent = React.createClass({
 
   render: function() {
     var title = this.state.article.title === '' ? 'About' : this.state.article.title;
-    var paragraphs = this.state.article.content.map(function(paragraph) {
-      return (
-        <p key={paragraph} className="lead content">{paragraph}</p>
-      );
-    });
+    var content = { __html: this.state.article.content };
     return (
       <div className="container about">
         <h1 className="text-center">{title}</h1>
-        {paragraphs}
+        <div className="lead" dangerouslySetInnerHTML={content}/>
       </div>
     );
   }

@@ -1,5 +1,9 @@
 module.exports = [
   {
+    "title": "About #IWasteTime2",
+    "content": "<p>The goal of our project is to use the reach of social media and the internet to tell you that you are not alone in your procrastination. Also, that wasting time, or idleness, can be beneficial too! Don’t fret! Don’t worry! #IWasteTime2</p>"
+  },
+  {
     "title": "",
     "date": "11th November 2015",
     "content": [
