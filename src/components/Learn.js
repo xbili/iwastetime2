@@ -10,9 +10,9 @@ var LearnComponent = React.createClass({
   },
 
   render: function() {
+    var content = { __html: this.state.article.content };
     return (
-      <div className="container about">
-        {this.state.article.content}
+      <div className="container learn" dangerouslySetInnerHTML={content}>
       </div>
     );
   }
