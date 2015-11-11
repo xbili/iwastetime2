@@ -23,9 +23,6 @@ var NavbarComponent = React.createClass({
             <LinkContainer to="/about">
               <NavItem eventKey={2}>About</NavItem>
             </LinkContainer>
-            <LinkContainer to="/learn">
-              <NavItem eventKey={3}>Learn</NavItem>
-            </LinkContainer>
           </Nav>
         </CollapsibleNav>
       </Navbar>
