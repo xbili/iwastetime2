@@ -19,7 +19,7 @@ module.exports = [
   },
 
   {
-    "text": "I was watching 'Interstellar' for the third time last Saturday. There's a bit where the astronauts are explaining physics to one another, and one of them says that the only thing that can transcend and pass through time is gravity. I hate to reduce an apocalyptic-galactic scenario to how I spend my Saturday afternoons, or to somehow equate my desire to pass time away with the Divine Force of the Universe - but look at me, look at what I'm doing. I take this long to tell you that a) I procrastinate by watching movies illegally on the Internet, b) because gravity, the increasing burden of my body, that other awesome film featuring Sandra Bullock, etc. etc..",
+    "text": "I was watching 'Interstellar' for the third time last Saturday. There's a bit where the astronauts are explaining physics to one another, and one of them says that the only thing that can transcend and pass through time is gravity. I hate to reduce an apocalyptic-galactic scenario to how I spend my Saturday afternoons, or to somehow equate my desire to pass time away with the Divine Force of the Universe - but look at me, look at what I'm doing. I take this long to tell you that a) I procrastinate by watching movies illegally on the Internet, b) because gravity, the increasing burden of my body, that other awesome film featuring Sandra Bullock, etc. etc...",
     "image_url": "../images/5.png"
   },
 
@@ -29,7 +29,7 @@ module.exports = [
   },
 
   {
-    "text": "I tell myself if I have less time I will be more efficient",
+    "text": "I tell myself if I have less time I will be more efficient.",
     "image_url": "../images/7.png"
   },
 
@@ -44,12 +44,12 @@ module.exports = [
   },
 
   {
-    "text": "My favourite form of procrastination is music. I will delay work just to sing, write songs or listen to them",
+    "text": "My favourite form of procrastination is music. I will delay work just to sing, write songs or listen to them.",
     "image_url": "../images/10.png"
   },
 
   {
-    "text": "I waste time by shopping online and reading the blogs of people I don't really care about",
+    "text": "I waste time by shopping online and reading the blogs of people I don't really care about.",
     "image_url": "../images/11.png"
   },
 
@@ -59,7 +59,7 @@ module.exports = [
   },
 
   {
-    "text": "Errr I get distracted easily, especially by notifications that pop up ie. from FB/Instagram/Twitter like you interviewing me. Once that happens I pretty much just waste the next hour away checking for \"updates\" and stumbling across \"interesting\" links/things",
+    "text": "Errr I get distracted easily, especially by notifications that pop up ie. from FB/Instagram/Twitter like you interviewing me. Once that happens I pretty much just waste the next hour away checking for \"updates\" and stumbling across \"interesting\" links/things.",
     "image_url": "../images/13.png"
   },
 
@@ -69,17 +69,17 @@ module.exports = [
   },
 
   {
-    "text": "I just wasted two hours I was supposed to spend studying talking to my friends on a Whatsapp group chat. Also, online shopping is extremely addictive too",
+    "text": "I just wasted two hours I was supposed to spend studying talking to my friends on a Whatsapp group chat. Also, online shopping is extremely addictive too.",
     "image_url": "../images/15.png"
   },
 
   {
-    "text": "I get really distracted by friends texting me on Facebook messenger. Like this friend who's asking me to help him for his project",
+    "text": "I get really distracted by friends texting me on Facebook messenger. Like this friend who's asking me to help him for his project.",
     "image_url": "../images/16.png"
   },
 
   {
-    "text": "I waste time shopping online, facebook surfing the net and taking long naps in hopes of drawing inspiration in my dreams",
+    "text": "I waste time shopping online, facebook surfing the net and taking long naps in hopes of drawing inspiration in my dreams.",
     "image_url": "../images/17.png"
   },
 
@@ -99,7 +99,7 @@ module.exports = [
   },
 
   {
-    "text": "I procrastinate by spending copious amounts of time striking conversations with friends or wandering around aimlessly",
+    "text": "I procrastinate by spending copious amounts of time striking conversations with friends or wandering around aimlessly.",
     "image_url": "../images/21.png"
   }
 ];
