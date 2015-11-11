@@ -77,7 +77,7 @@ var ShowcaseComponent = React.createClass({
             </div>
 
             <div className="col-md-5">
-              <h2 className="text-center">How I Procrastinate:</h2>
+              <h3>How I Procrastinate:</h3>
               <ReactCSSTransitionGroup
               transitionName={ {
                 enter: 'fadeInRight',

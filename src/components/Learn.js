@@ -12,7 +12,7 @@ var LearnComponent = React.createClass({
   render: function() {
     var content = { __html: this.state.article.content };
     return (
-      <div className="container learn" dangerouslySetInnerHTML={content}>
+      <div className="animated fadeIn container learn" dangerouslySetInnerHTML={content}>
       </div>
     );
   }

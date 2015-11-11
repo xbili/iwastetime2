@@ -14,9 +14,9 @@ var AboutComponent = React.createClass({
     var title = this.state.article.title === '' ? 'About' : this.state.article.title;
     var content = { __html: this.state.article.content };
     return (
-      <div className="container about">
-        <h1 className="text-center">{title}</h1>
-        <div className="lead" dangerouslySetInnerHTML={content}/>
+      <div className="animated fadeIn container about">
+        <h3>{title}</h3>
+        <div dangerouslySetInnerHTML={content}/>
       </div>
     );
   }
