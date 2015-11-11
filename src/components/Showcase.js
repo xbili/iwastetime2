@@ -7,19 +7,19 @@ var CarouselItem = require('react-bootstrap').CarouselItem;
 
 var ShowcaseControl = require('./ShowcaseControl');
 
-var data = require('../data/data');
+var showcaseData = require('../data/data');
 
 var ShowcaseComponent = React.createClass({
 
   componentWillMount: function() {
     this.setState({
       idx: 0,
-      text: data
+      text: showcaseData
     });
   },
 
   nextItem: function() {
-    if (this.state.idx === data.length-1) {
+    if (this.state.idx === showcaseData.length-1) {
       return this.setState({
         idx: 0
       });
