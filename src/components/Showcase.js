@@ -39,7 +39,7 @@ var ShowcaseComponent = React.createClass({
     var items = this.state.text.map(function(item, i) {
       item = item.text;
       return (
-        <p className="animated" key={item}>
+        <p className="animated item" key={item}>
           {item}
         </p>
       );
