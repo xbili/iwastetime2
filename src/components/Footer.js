@@ -10,7 +10,7 @@ var FooterComponent = React.createClass({
       <footer className="container-fluid unpad">
         <div className="footer">
           <p>Done with ♥</p>
-          <p>Tembusu College</p>
+          <p>Tembusu College, UTC2101</p>
         </div>
       </footer>
     );
