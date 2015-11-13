@@ -2,7 +2,7 @@ module.exports = [
   {
     "text": "I waste my time watching dramas online, window shopping for bags and shoes I cannot afford (for now) and talking to my soft toys under my blanket.",
     "image_url": "../images/1.png",
-    "time": "2nd November 2015, "
+    "time": "2nd November 2015"
   },
   {
     "text": "I procrastinate going on my jogs because putting on pants is too much work",

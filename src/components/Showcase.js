@@ -37,11 +37,13 @@ var ShowcaseComponent = React.createClass({
   render: function() {
 
     var items = this.state.text.map(function(item, i) {
+      var time = item.time;
       item = item.text;
       return (
-        <p className="animated item" key={item}>
-          {item}
-        </p>
+        <div className="animated item" key={item}>
+          <p>{item}</p>
+          <em>{time}</em>
+        </div>
       );
     }.bind(this));
 
